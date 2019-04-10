@@ -1,0 +1,22 @@
+{
+  "name": "docker-node-dev",
+  "version": "1.0.0",
+  "description": "Container for node development",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmottet/docker-node-dev.git"
+  },
+  "author": "David MOTTET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmottet/docker-node-dev/issues"
+  },
+  "homepage": "https://github.com/davidmottet/docker-node-dev#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
