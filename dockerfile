@@ -1,5 +1,6 @@
 FROM node:carbon-alpine
 
+#TO REMOVE if you are on windows
 WORKDIR /app
 
 COPY package.json ./
